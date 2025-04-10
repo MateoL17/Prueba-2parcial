@@ -6,18 +6,6 @@
     font-size: 24px;
 }
 
-.background4 {
-    width: 100%;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center 0;
-    z-index: 0;
-    position: relative;
-    overflow: hidden;
-    height: 2000px;
-    margin-top: -80px;
-}
-
 .background4 img:hover {
     color: rgb(0, 0, 0);
 }
@@ -30,6 +18,7 @@
     height: 100%;
     margin-top: 14px;
     display: inline-block;
+
 }
 
 header .botonesheader a {
@@ -39,6 +28,7 @@ header .botonesheader a {
     margin-right: 52px;
     right: -24px;
     z-index: 1;
+    color: black;
 }
 
 header .botonesheader a:hover {
@@ -55,7 +45,13 @@ header .botonesheader a:hover {
 }
 
 .posiciones {
-    border: 4px;
-    width: 86%;
+    border-top: 20px;
+    border-color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: left;
+}
+
+.posiciones-head {
     text-align: center;
+    margin-right: -20px;
 }
