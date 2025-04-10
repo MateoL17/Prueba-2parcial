@@ -1,0 +1,124 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.botonesheader {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+header .botones a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    margin-right: 52px;
+    right: -24px;
+    z-index: 1;
+}
+
+header .botones a:hover {
+    color: white;
+    background-color: black;
+}
+
+.imagenlogo {
+    text-align: center;
+    margin-top: 180px;
+    position: relative;
+    z-index: 1;
+}
+
+.textologo {
+    font-size: 115px;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    position: absolute;
+    color: black;
+    transform: translate(-53.35%, -117%);
+    top: 50%;
+    left: 50%;
+}
+
+.textologomain {
+    position: relative;
+    text-align: center;
+    margin-top: -125px;
+    transform: rotate(-2deg);
+    z-index: 1;
+}
+
+.background {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center 0;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    height: 876px;
+    margin-top: -510px;
+}
+
+.background2 {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center 0;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    height: 694px;
+}
+
+.contenedor-acerca-de {
+    z-index: 1;
+    position: relative;
+    margin-top: -644px;
+}
+
+.informacion {
+    font-size: 29px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.titulo-ad {
+    text-align: center;
+    position: relative;
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    margin-top: -28px;
+}
+
+.footer {
+    z-index: 1;
+    margin-top: 540px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+}
+
+.espacioblanco {
+    display: inline-block;
+    width: 275px;
+}
+
+.footer-bg {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center 0;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    height: 340px;
+    margin-top: -290px;
+}
